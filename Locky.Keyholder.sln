@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locky.Keyholder.Infrastruct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locky.Keyholder.Api", "Locky.Keyholder.Api\Locky.Keyholder.Api.csproj", "{F97D6F31-DA50-485E-A3F6-0774A84E88B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locky.Keyholder.UseCases", "Locky.Keyholder.UseCases\Locky.Keyholder.UseCases.csproj", "{1A048EDB-8842-43C5-AF91-64F58EBEEA7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{F97D6F31-DA50-485E-A3F6-0774A84E88B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F97D6F31-DA50-485E-A3F6-0774A84E88B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F97D6F31-DA50-485E-A3F6-0774A84E88B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A048EDB-8842-43C5-AF91-64F58EBEEA7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A048EDB-8842-43C5-AF91-64F58EBEEA7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A048EDB-8842-43C5-AF91-64F58EBEEA7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A048EDB-8842-43C5-AF91-64F58EBEEA7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

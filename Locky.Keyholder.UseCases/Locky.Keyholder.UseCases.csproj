@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Locky.Keyholder.Core\Locky.Keyholder.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Marten" Version="6.4.1" />
+      <PackageReference Include="WolverineFx.Http.FluentValidation" Version="1.20.1" />
+      <PackageReference Include="WolverineFx.Http.Marten" Version="1.20.1" />
+    </ItemGroup>
+
+</Project>
